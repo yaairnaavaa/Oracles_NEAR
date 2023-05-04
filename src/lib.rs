@@ -121,7 +121,7 @@ impl Contract {
     }
     
     // Consultar Oraculo de Promixityfi
-    pub fn get_asset_promixityfi(&self, asset_id: String) -> Promise {
+    pub fn get_asset_proximityfi(&self, asset_id: String) -> Promise {
         // Hacemos uso de las llamadas de contratos cruzados hacia el contrato de proximityfi
         Promise::new("priceoracle.testnet".parse().unwrap())
         .function_call(

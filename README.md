@@ -42,4 +42,4 @@ Compilar y desplegar contrato Contrato:
 
     near view priceoracle.testnet get_asset '{"asset_id":"wrap.testnet"}' 
 
-    near call $CONTRACT get_asset_promixityfi '{"asset_id":"wrap.testnet"}'  --accountId yairnava.testnet --gas=300000000000000
+    near call $CONTRACT get_asset_proximityfi '{"asset_id":"wrap.testnet"}'  --accountId yairnava.testnet --gas=300000000000000
